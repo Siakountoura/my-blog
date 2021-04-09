@@ -1,0 +1,82 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #f5d9d5;
+  font-family: "Nunito", sans-serif;
+  overflow-x: hidden;
+}
+
+#mainNavbar {
+  font-size: 1.5rem;
+  font-weight: 100;
+}
+
+#mainNavbar .navbar-brand {
+  color: #ea1c2c;
+  font-size: 1.5rem;
+}
+
+#mainNavbar .nav-link {
+  color: white;
+}
+
+#mainNavbar .nav-link:hover {
+  color: #ea1c2c;
+}
+
+.dropitems a {
+  color: white;
+  background-color: #f5d9d5;
+  font-family: "Nunito", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 100;
+}
+
+.dropitems a:hover {
+  color: #ea1c2c;
+  background-color: #f5d9d5;
+}
+
+section {
+  margin: 10px;
+  padding: 10px;
+}
+
+img {
+  width: 135px;
+  height: 213px;
+  margin: 3px;
+  padding: 5px;
+}
+
+h1 {
+  color: #ea1c2c;
+  font-size: 2rem;
+  font-weight: 100;
+  padding-bottom: 0px;
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 0px;
+  margin-left: 350px;
+  margin-right: 350px;
+  border-bottom: 0.05rem solid rgba(175, 175, 175, 0.5);
+}
+
+.booklist {
+  padding: 15px;
+  display: flex;
+  margin: 0px;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 1010px) {
+  ul {
+    flex-wrap: wrap;
+  }
+}
